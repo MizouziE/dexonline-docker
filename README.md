@@ -1,3 +1,5 @@
+**IMPORTANT NOTE: This repo has been altered to work from my own forked repos, please see original repositories for unchanged code base**
+
 ### Install docker and docker-compose
 
 * https://docs.docker.com/engine/installation/linux/docker-ce/debian/
@@ -6,14 +8,16 @@
 Start the `docker` service (some distros start it by default).
 
 ### Clone this repo
+:warning: **this is personalized**
 ```sh
-git clone git@github.com:david-batranu/dexonline-docker.git
+git clone git@github.com:MizouziE/dexonline-docker.git
 cd dexonline-docker
 ```
 
 ### Grab code and database
+:warning: **this is personalized**
 ```sh
-git clone git@github.com:dexonline/dexonline.git src/dexonline
+git clone git@github.com:MizouziE/dexonline.git src/dexonline
 wget -O ./db/dex-database.sql.gz https://dexonline.ro/static/download/dex-database.sql.gz
 ```
 
